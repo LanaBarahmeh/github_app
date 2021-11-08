@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A47C9DEF"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".RussianTwists">
+
+    <TextView
+        style="@style/stylestextviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="This Exercise  is "
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/stylestextviews"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Russian Twists!"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/stylestextviews"
+                android:layout_gravity="start"
+                android:layout_marginBottom="15dp"
+                android:textSize="20dp"
+                android:text=" 1.  Lie down with your legs bent at the knees." >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/stylestextviews"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="start"
+                android:textSize="20dp"
+                android:text="2. Elevate your upper body so that it creates a V shape with your thighs." >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                style="@style/stylestextviews"
+                android:layout_gravity="start"
+                android:textSize="20dp"
+                android:text="3. Twist your torso to the right, and then reverse the motion, twisting it to the left." >
+
+            </TextView>
+
+            <TextView
+                style="@style/stylestextviews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="4. Repeat this movement until the set is complete."
+                android:layout_gravity="start"
+                android:textSize="20dp">
+
+            </TextView>
+
+
+            <ImageView
+                android:layout_width="375dp"
+                android:layout_height="316dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/russian_twist_exercise" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

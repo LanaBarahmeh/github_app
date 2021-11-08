@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A47C9DEF"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".JumpingJacks">
+
+    <TextView
+        style="@style/stylestextviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="This Exercise  is "
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/stylestextviews"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Jumping Jacks!"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/stylestextviews"
+                android:layout_marginBottom="15dp"
+                android:textSize="20dp"
+                android:text="1. Stand upright with your legs together, arms at your sides." >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/stylestextviews"
+                android:layout_marginBottom="15dp"
+                android:textSize="20dp"
+                android:text="2. Bend your knees slightly, and jump into the air." >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                style="@style/stylestextviews"
+                android:textSize="20dp"
+                android:text="3. As you jump, spread your legs to be about shoulder-width apart. Stretch your arms out and over your head." >
+
+            </TextView>
+
+            <TextView
+                style="@style/stylestextviews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="4. Jump back to starting position."
+                android:layout_gravity="start"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/stylestextviews"
+                android:layout_gravity="start"
+                android:textSize="20dp"
+                android:text="5. Repeat." >
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="242dp"
+                android:layout_height="182dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/jumping_jacks_exercise_illustration" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

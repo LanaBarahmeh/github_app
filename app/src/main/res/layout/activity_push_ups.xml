@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A47C9DEF"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".JumpingJacks">
+
+    <TextView
+        style="@style/stylestextviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="This Exercise  is "
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/stylestextviews"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Push Ups!"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/stylestextviews"
+                android:layout_marginBottom="15dp"
+                android:textSize="20dp"
+                android:text="1. Get on the floor on all fours, positioning your hands slightly wider than your shoulders.
+     " >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/stylestextviews"
+                android:layout_marginBottom="15dp"
+                android:textSize="20dp"
+                android:text="2. Extend your legs back so you are balanced on your hands and toes, your feet hip-width apart." >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                style="@style/stylestextviews"
+                android:textSize="20dp"
+                android:text="3.Contract your abs and tighten your core by pulling your belly button toward your spine. " >
+
+            </TextView>
+
+            <TextView
+                style="@style/stylestextviews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="4. Inhale as you slowly bend your elbows and lower yourself to the floor, until your elbows are at a 90-degree angle."
+                android:layout_gravity="start"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/stylestextviews"
+                android:layout_gravity="start"
+                android:textSize="20dp"
+                android:text="5. Exhale while contracting your chest muscles and pushing back up through your hands, returning to the start position. " >
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="242dp"
+                android:layout_height="182dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/classic_483x350_1_1492801201" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

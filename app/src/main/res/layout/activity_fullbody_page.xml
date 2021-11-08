@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A47C9DEF"
+    tools:context=".FullbodyPage">
+
+    <TextView
+        android:id="@+id/motivationq"
+        style="@style/stylestextviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:text="Choose a quote from this menu to motivate you!"
+        android:textSize="25dp"
+       />
+
+
+    <Spinner
+        android:id="@+id/quotes"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/motivationq"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="20dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quotes"
+        android:layout_marginBottom="15dp"
+        android:textSize="20dp"
+        android:text="Lets Begin! Click on an exercise."
+        android:layout_marginLeft="60dp"/>
+
+    <ListView
+        android:id="@+id/fullex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/start"
+        android:layout_marginLeft="15dp" />
+
+    <TextView
+        android:id="@+id/textsave"
+        style="@style/stylestextviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fullex"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:text="please press save when you finish all exercises"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/savefull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:onClick="savedatafullbody"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="150dp"
+        android:layout_below="@id/textsave">
+
+    </Button>
+</RelativeLayout>
